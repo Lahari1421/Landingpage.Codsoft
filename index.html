@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Writer Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lahari Parasa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My World of Stories</h2>
+            <p>Discover my latest works and upcoming releases.</p>
+            <a href="#books" class="btn">Explore Books</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About the Author</h2>
+            <p>Lahari is a renowned author specializing in love story novels, known for her deep, evocative prose and compelling narratives that explore the complexities of human relationships. Her work has captivated readers with its authentic characters and poignant storytelling, earning her a dedicated following in the romance literary community. When she's not writing, Lahari enjoys connecting with her readers and drawing inspiration from the world around her.</p>
+        </div>
+    </section>
+    <section id="books">
+        <div class="container">
+            <h2>Books</h2>
+            <div class="book-list">
+                <!-- Repeat this block for each book -->
+                <div class="book">
+                    <img src="booktitle.jpg" alt="Book Cover">
+                    <h3>End Of The Day</h3>
+                    <p>"End of the Day: A Breakup Love Story" is a poignant exploration of love's complexities and the poignant journey of two individuals as they navigate the end of their relationship. The narrative delves deep into their shared memories, the pain of parting, and the bittersweet moments that define their story. Through evocative prose and heartfelt reflections, the book captures the essence of heartache, growth, and the fragile beauty of moving on. It's a tale that resonates with anyone who has experienced the raw emotions of love's end, offering both solace and a profound understanding of the healing process.</p>
+                </div>
+                <!-- End of book block -->
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Get in touch with the author.</p>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lahari Parasa. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('https://www.onlinelogomaker.com/blog/wp-content/uploads/2020/01/fe4469a22e699e003f24f4fb7a6957ec.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    padding: 100px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f4b41a;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* About Section Styles */
+/* About Section Styles */
+
+#about {
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.463);
+    margin: 20px 0;
+    text-align: center; /* Center-align text within the section */
+}
+#about h2 {
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
+#about p {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Books Section Styles */
+#books {
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.473);
+    margin: 20px 0;
+}
+
+#books .book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#books .book {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text within each book */
+}
+
+
+#books .book img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
